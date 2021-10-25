@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <script type="text/javascript" src="js/chart.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <link href="css/chart.css" rel="stylesheet">
+    <title>HeartBeatMonitor</title>
+  </head>
+  <body>
+    <button id="settings_menu_btn">settings</button>
+    <div id="chart_wapper">
+      <canvas id="myChart"></canvas>
+      <div id="hb_count_disp">&hearts;<span id="hb_count">100</span></div>
+    </div>
+    <div id="menu">
+      <ul>
+        <li class="list_block_1">background color<input id="bgColor_pick" type="color"></li>
+        <li class="list_block_1">chart
+          <ul>
+            <li>line color<input id="lineColor_pick" type="color"></li>
+            <li>animation<input id="animation_check" type="checkbox"></li>
+            <li class="list_block_2">x-axis
+              <ul>
+                <li>grid display<input id="chartXGridDisplay_check" type="checkbox"></li>
+                <li>length<input id="chartXLength_input"type="number" min="1" max="100"></li>
+              </ul>
+            </li>
+            <li class="list_block_2">y-axis
+              <ul>
+                <li>grid display<input id="chartYGridDisplay_check" type="checkbox"></li>
+                <li>max<span id="chartYMax_disp">0</span><input id="chartYMax_input" type="range" min="0" max ="250"></li>
+                <li>min<span id="chartYMax_disp">0</span><input id="chartYMin_input" type="range" min="0" max ="250"></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="list_block_1">counter
+          <ul>
+            <li>color<input id="counterColor_pick" type="color"></li>
+            <li>size<input id="counterSize_input" type="number"></li>
+            <li class="list_block_2">position
+              <ul>
+                <li>width<input id="counterPositionWidth_input" type="number"></li>
+                <li>height<input id="counterPositionHeight_input" type="number"></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    </body>
+  </body>
+</html>

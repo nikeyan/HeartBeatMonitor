@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "PMP12B";
+  src: url(../font/PixelMplus12-Bold.ttf);
+}
+
+body {
+  font-family: "PMP12B";
+}
+
+button {
+  font-family: "PMP12B";
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+input {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+input[type="number"] {
+  width: 50px;
+}
+input[type="color"] {
+  width: 30px;
+  height: 18px;
+}
+
+#settings_menu_btn {
+  position: relative;
+  height: 15px;
+  width: 70px;
+  background-color: #fff;
+  font-size: 12px;
+  margin: 5px;
+  border: 1px solid #333;
+}
+
+#chart_wapper {
+  position: absolute;
+  width: 100%;
+  background-color: #0000ff;
+}
+
+#hb_count_disp {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 50px;
+  text-shadow: 5px 5px 1px #fff, -5px 5px 1px #fff, 5px -5px 1px #fff, -5px -5px 1px #fff,
+    5px 0px 1px #fff, 0px 5px 1px #fff, -5px 0px 1px #fff, 0px -5px 1px #fff;
+}
+
+#menu {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  overflow-y: scroll;
+}
+
+#chartYMax_disp,
+#chartYMin_disp {
+  display: inline-block;
+  width: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.thump {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.list_block_1 {
+  background-color: #cccccc;
+  margin: 5px;
+  width: 300px;
+  padding: 10px;
+}
+
+.list_block_2 {
+  background-color: #dddddd;
+  margin: 5px;
+  padding: 5px;
+}
+
+.list_block_3 {
+  background-color: #eeeeee;
+  margin: 5px;
+  padding: 5px;
+}

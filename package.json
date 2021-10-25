@@ -1,0 +1,43 @@
+{
+  "name": "heartbeatmonitor",
+  "version": "0.0.1",
+  "main": "./src/main.js",
+  "author": "nikeyan",
+  "license": "MIT",
+  "description": "heartbeatmonitor",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "ant-plus": "^0.1.24",
+    "electron-store": "^8.0.1"
+  },
+  "devDependencies": {
+    "electron": "^15.1.1",
+    "electron-builder": "^22.13.1"
+  },
+  "build": {
+    "appId": "hbm",
+    "productName": "HeartBeatMonitor",
+    "directories": {
+      "output": "./bin"
+    },
+    "files": [
+      "src",
+      "node_modules",
+      "package.json",
+      "package-lock.json"
+    ],
+    "win": {
+      "target": "portable"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikeyan/HeatBeatMonitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nikeyan/HeatBeatMonitor/issues"
+  },
+  "homepage": "https://github.com/nikeyan/HeatBeatMonitor#readme"
+}
