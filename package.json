@@ -34,10 +34,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikeyan/HeatBeatMonitor.git"
+    "url": "git+https://github.com/nikeyan/HeartBeatMonitor.git"
   },
   "bugs": {
-    "url": "https://github.com/nikeyan/HeatBeatMonitor/issues"
+    "url": "https://github.com/nikeyan/HeartBeatMonitor/issues"
   },
-  "homepage": "https://github.com/nikeyan/HeatBeatMonitor#readme"
+  "homepage": "https://github.com/nikeyan/HeartBeatMonitor#readme"
 }
