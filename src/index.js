@@ -1,9 +1,9 @@
 let xLength = 61;
-let chartBorderColor = "#FF0000";
+let chartBorderColor = "#ff0000";
 let chartBorderWidth = 3;
 let yMaxLenght = 150;
 let yMinLenght = 60;
-let backgroundColor = "#0000FF";
+let backgroundColor = "#fff";
 let chartXGridDisplay = false;
 
 let config = {

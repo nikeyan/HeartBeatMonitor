@@ -31,13 +31,13 @@ input[type="color"] {
   background-color: #fff;
   font-size: 12px;
   margin: 5px;
-  border: 1px solid #333;
+  border: 1px solid #000;
 }
 
 #chart_wapper {
   position: absolute;
   width: 100%;
-  background-color: #0000ff;
+  background-color: #fff;
 }
 
 #hb_count_disp {
@@ -64,7 +64,7 @@ input[type="color"] {
 }
 
 .thump {
-  color: red;
+  color: #ff0000;
 }
 
 .hidden {
@@ -72,20 +72,20 @@ input[type="color"] {
 }
 
 .list_block_1 {
-  background-color: #cccccc;
+  background-color: #ccc;
   margin: 5px;
   width: 300px;
   padding: 10px;
 }
 
 .list_block_2 {
-  background-color: #dddddd;
+  background-color: #ddd;
   margin: 5px;
   padding: 5px;
 }
 
 .list_block_3 {
-  background-color: #eeeeee;
+  background-color: #eee;
   margin: 5px;
   padding: 5px;
 }
