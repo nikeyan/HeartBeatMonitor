@@ -3,19 +3,6 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: "PMP12B";
-  src: url(../font/PixelMplus12-Bold.ttf);
-}
-
-body {
-  font-family: "PMP12B";
-}
-
-button {
-  font-family: "PMP12B";
-}
-
 ul {
   list-style-type: none;
 }
@@ -39,7 +26,7 @@ input[type="color"] {
 
 #settings_menu_btn {
   position: relative;
-  height: 15px;
+  height: 20px;
   width: 70px;
   background-color: #fff;
   font-size: 12px;
@@ -58,8 +45,8 @@ input[type="color"] {
   top: 50px;
   left: 50px;
   font-size: 50px;
-  text-shadow: 5px 5px 1px #fff, -5px 5px 1px #fff, 5px -5px 1px #fff, -5px -5px 1px #fff,
-    5px 0px 1px #fff, 0px 5px 1px #fff, -5px 0px 1px #fff, 0px -5px 1px #fff;
+  font-weight: bold;
+  -webkit-text-stroke: 3px #fff;
 }
 
 #menu {

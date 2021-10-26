@@ -73,7 +73,6 @@ let config = {
           color: "#000000",
           font: {
             size: 26,
-            family: "PMP12B",
           },
         },
         max: yMaxLenght,
