@@ -221,8 +221,8 @@ async function thump() {
 
 // リサイズ時等に高さ調整が必要な要素はここに定義する
 function setHeight() {
-  document.getElementById("chart_wapper").style.height = window.innerHeight - 25 + "px";
-  document.getElementById("menu").style.height = window.innerHeight - 25 + "px";
+  document.getElementById("chart_wapper").style.height = window.innerHeight - 30 + "px";
+  document.getElementById("menu").style.height = window.innerHeight - 30 + "px";
 }
 
 // sleep関数

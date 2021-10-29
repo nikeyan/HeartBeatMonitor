@@ -16,11 +16,6 @@ window.addEventListener("DOMContentLoaded", () => {
   const stick = new Ant.GarminStick2();
   const sensor = new Ant.HeartRateSensor(stick);
 
-  //ant+USBドングルを認識
-  if (!stick.open()) {
-    console.log("Stick not found!");
-  }
-
   //起動時イベント
   stick.on("Stick startup", function () {
     //センサーを起動
@@ -42,6 +37,11 @@ window.addEventListener("DOMContentLoaded", () => {
   sensor.on("attached", () => {
     console.log("Stick attached");
   });
+
+  //ant+USBドングルを認識
+  if (!stick.open()) {
+    console.log("Stick not found!");
+  }
 });
 
 contextBridge.exposeInMainWorld("myAPI", {
